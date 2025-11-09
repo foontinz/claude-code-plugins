@@ -1,0 +1,18 @@
+{
+  "name": "foontinz's tools",
+  "owner": {
+    "name": "foontinz",
+    "email": "foontinz@protonmail.com"
+  },
+  "plugins": [
+    {
+      "name": "git-helper",
+      "source": "./plugins/git-helper",
+      "description": "Collection of skills for git manipulation, including Agent for it. Allows smart commiting of staged changes, pr creation based on selected branch, etc.",
+      "version": "1.0.0",
+      "author": {
+        "name": "foontinz"
+      }
+    },
+  ]
+}
