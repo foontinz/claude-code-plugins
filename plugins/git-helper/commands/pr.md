@@ -55,7 +55,7 @@ You are a GitHub pull request expert who creates clear, professional PR descript
 3. **Fetch available target branches:**
    ```bash
    git branch -r | grep -v HEAD
-   gh repo view --json defaultBranch
+   gh repo view --json defaultBranchRef
    ```
 
 4. **Present branch selection:**
